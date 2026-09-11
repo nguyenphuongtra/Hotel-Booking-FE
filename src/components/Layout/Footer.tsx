@@ -8,14 +8,12 @@ export default function Footer() {
     <footer className="bg-gradient-to-b from-gray-900 to-black text-white mt-16">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
-          {/* Giới thiệu */}
           <div>
             <h3 className="text-xl font-bold gradient-primary bg-clip-text text-transparent mb-4">Hotel Booking</h3>
             <p className="text-gray-400 leading-relaxed mb-4">Nền tảng đặt phòng khách sạn hàng đầu với dịch vụ chuyên nghiệp và giá cạnh tranh.</p>
             <p className="text-gray-500 text-sm">Chúng tôi cung cấp trải nghiệm đặt phòng an toàn, nhanh chóng và tiện lợi.</p>
           </div>
 
-          {/* Dịch vụ */}
           <div>
             <h4 className="font-semibold mb-4 text-lg">Dịch vụ</h4>
             <ul className="space-y-3">
@@ -26,7 +24,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Liên hệ */}
           <div>
             <h4 className="font-semibold mb-4 text-lg">Liên hệ</h4>
             <div className="space-y-4">
@@ -54,7 +51,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Mạng xã hội */}
           <div>
             <h4 className="font-semibold mb-4 text-lg">Kết nối với chúng tôi</h4>
             <div className="flex gap-4 mb-6">
