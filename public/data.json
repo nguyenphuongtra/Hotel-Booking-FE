@@ -1,0 +1,512 @@
+{
+  "rooms": [
+    {
+      "_id": "room_1",
+      "name": "Phòng Deluxe Giường Đôi",
+      "price": 1200000,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng rộng rãi với giường đôi lớn, cửa sổ thoáng và nội thất hiện đại.",
+      "amenities": [
+        "Wi-Fi miễn phí",
+        "Điều hòa",
+        "TV màn hình phẳng",
+        "Minibar"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 124,
+      "location": {
+        "floor": 5,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 35
+      }
+    },
+    {
+      "_id": "room_2",
+      "name": "Phòng Superior 2 Giường",
+      "price": 950000,
+      "images": [
+        "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng thoải mái với hai giường đơn, không gian sáng và gần khu vực hồ bơi.",
+      "amenities": ["Wi-Fi miễn phí", "Bữa sáng", "Sử dụng hồ bơi"],
+      "rating": 4.2,
+      "reviewsCount": 89,
+      "location": {
+        "floor": 3,
+        "building": "B"
+      },
+      "specs": {
+        "beds": 2,
+        "guests": 2,
+        "size_m2": 28
+      }
+    },
+    {
+      "_id": "room_3",
+      "name": "Phòng Suite Cao Cấp",
+      "price": 2200000,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng suite cao cấp có khu vực phòng khách riêng, phù hợp cho khách công tác và nghỉ dưỡng.",
+      "amenities": [
+        "Khu vực làm việc",
+        "Wi-Fi miễn phí",
+        "Dịch vụ phòng",
+        "View thành phố"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 45,
+      "location": {
+        "floor": 12,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 3,
+        "size_m2": 60
+      }
+    },
+    {
+      "_id": "room_4",
+      "name": "Phòng Studio Đôi",
+      "price": 800000,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng studio ấm cúng với giường đôi và khu vực bếp nhỏ tiện lợi.",
+      "amenities": ["Bếp nhỏ", "Wi-Fi miễn phí", "Cho phép thú cưng"],
+      "rating": 4.0,
+      "reviewsCount": 60,
+      "location": {
+        "floor": 2,
+        "building": "C"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 30
+      }
+    },
+    {
+      "_id": "room_5",
+      "name": "Phòng Suite Gia Đình",
+      "price": 1800000,
+      "images": [
+        "https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng suite gồm hai phòng ngủ và phòng khách riêng, phù hợp cho gia đình.",
+      "amenities": ["2 phòng ngủ", "Wi-Fi miễn phí", "Nôi em bé", "Máy giặt"],
+      "rating": 4.5,
+      "reviewsCount": 78,
+      "location": {
+        "floor": 7,
+        "building": "B"
+      },
+      "specs": {
+        "beds": 3,
+        "guests": 5,
+        "size_m2": 85
+      }
+    },
+    {
+      "_id": "room_6",
+      "name": "Phòng Đơn Tiêu Chuẩn",
+      "price": 450000,
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng đơn cơ bản dành cho khách du lịch một mình với mức giá tiết kiệm.",
+      "amenities": ["Wi-Fi miễn phí", "Phòng tắm riêng"],
+      "rating": 3.8,
+      "reviewsCount": 32,
+      "location": {
+        "floor": 1,
+        "building": "C"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 1,
+        "size_m2": 18
+      }
+    },
+    {
+      "_id": "room_7",
+      "name": "Phòng Penthouse Sang Trọng",
+      "price": 4500000,
+      "images": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng penthouse tầng cao với tầm nhìn toàn cảnh thành phố và sân hiên riêng.",
+      "amenities": ["Sân hiên riêng", "Bồn tắm Jacuzzi", "Quản gia riêng"],
+      "rating": 4.95,
+      "reviewsCount": 12,
+      "location": {
+        "floor": 20,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 2,
+        "guests": 4,
+        "size_m2": 140
+      }
+    },
+    {
+      "_id": "room_8",
+      "name": "Phòng Tiện Nghi Cho Người Khuyết Tật",
+      "price": 1000000,
+      "images": [
+        "https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng được thiết kế thuận tiện cho người sử dụng xe lăn với phòng tắm rộng rãi.",
+      "amenities": [
+        "Phòng tắm hỗ trợ xe lăn",
+        "Wi-Fi miễn phí",
+        "Bồn rửa thấp"
+      ],
+      "rating": 4.3,
+      "reviewsCount": 21,
+      "location": {
+        "floor": 1,
+        "building": "B"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 32
+      }
+    },
+    {
+      "_id": "room_9",
+      "name": "Phòng Deluxe View Biển",
+      "price": 1600000,
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng deluxe có ban công riêng và tầm nhìn hướng biển, phù hợp cho kỳ nghỉ thư giãn.",
+      "amenities": ["Ban công", "View biển", "Wi-Fi miễn phí", "Minibar"],
+      "rating": 4.7,
+      "reviewsCount": 96,
+      "location": {
+        "floor": 8,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 38
+      }
+    },
+    {
+      "_id": "room_10",
+      "name": "Phòng Superior Giường Đôi",
+      "price": 900000,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng nghỉ hiện đại với giường đôi, phù hợp cho cặp đôi hoặc khách công tác.",
+      "amenities": ["Wi-Fi miễn phí", "Điều hòa", "TV", "Tủ lạnh"],
+      "rating": 4.3,
+      "reviewsCount": 72,
+      "location": {
+        "floor": 4,
+        "building": "B"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 30
+      }
+    },
+    {
+      "_id": "room_11",
+      "name": "Phòng Cao Cấp View Thành Phố",
+      "price": 1500000,
+      "images": [
+        "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng cao cấp với cửa sổ lớn nhìn ra toàn cảnh thành phố.",
+      "amenities": ["View thành phố", "Wi-Fi miễn phí", "Bồn tắm", "Minibar"],
+      "rating": 4.6,
+      "reviewsCount": 103,
+      "location": {
+        "floor": 10,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 40
+      }
+    },
+    {
+      "_id": "room_12",
+      "name": "Phòng Twin Gia Đình",
+      "price": 1100000,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng hai giường rộng rãi dành cho gia đình nhỏ hoặc nhóm bạn.",
+      "amenities": ["2 giường đơn", "Wi-Fi miễn phí", "TV", "Bữa sáng"],
+      "rating": 4.4,
+      "reviewsCount": 65,
+      "location": {
+        "floor": 6,
+        "building": "B"
+      },
+      "specs": {
+        "beds": 2,
+        "guests": 4,
+        "size_m2": 42
+      }
+    },
+    {
+      "_id": "room_13",
+      "name": "Phòng Executive",
+      "price": 1900000,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng executive được trang bị đầy đủ tiện nghi cho khách công tác và lưu trú dài ngày.",
+      "amenities": [
+        "Bàn làm việc",
+        "Wi-Fi tốc độ cao",
+        "Dịch vụ phòng",
+        "Máy pha cà phê"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 58,
+      "location": {
+        "floor": 11,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 45
+      }
+    },
+    {
+      "_id": "room_14",
+      "name": "Phòng Honeymoon Lãng Mạn",
+      "price": 2300000,
+      "images": [
+        "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Không gian lãng mạn dành cho các cặp đôi và kỳ nghỉ trăng mật.",
+      "amenities": [
+        "Giường King",
+        "Bồn tắm",
+        "Trang trí lãng mạn",
+        "Bữa sáng tại phòng"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 41,
+      "location": {
+        "floor": 13,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 48
+      }
+    },
+    {
+      "_id": "room_15",
+      "name": "Phòng Gia Đình 3 Giường",
+      "price": 1400000,
+      "images": [
+        "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng rộng với ba giường, thích hợp cho nhóm bạn hoặc gia đình đông người.",
+      "amenities": ["3 giường", "Wi-Fi miễn phí", "Tủ lạnh", "Bữa sáng"],
+      "rating": 4.5,
+      "reviewsCount": 54,
+      "location": {
+        "floor": 5,
+        "building": "B"
+      },
+      "specs": {
+        "beds": 3,
+        "guests": 5,
+        "size_m2": 50
+      }
+    },
+    {
+      "_id": "room_16",
+      "name": "Phòng Tiết Kiệm Đôi",
+      "price": 650000,
+      "images": [
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng đôi giá tiết kiệm, phù hợp với khách muốn tối ưu chi phí lưu trú.",
+      "amenities": ["Wi-Fi miễn phí", "Điều hòa", "TV"],
+      "rating": 4.0,
+      "reviewsCount": 39,
+      "location": {
+        "floor": 2,
+        "building": "C"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 24
+      }
+    },
+    {
+      "_id": "room_17",
+      "name": "Phòng Suite View Biển",
+      "price": 2800000,
+      "images": [
+        "https://images.unsplash.com/photo-1578898887932-dce23a59511d?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Suite cao cấp với phòng khách riêng và tầm nhìn tuyệt đẹp hướng biển.",
+      "amenities": [
+        "Phòng khách riêng",
+        "View biển",
+        "Bồn tắm",
+        "Dịch vụ phòng"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 37,
+      "location": {
+        "floor": 15,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 3,
+        "size_m2": 65
+      }
+    },
+    {
+      "_id": "room_18",
+      "name": "Phòng Bungalow Sân Vườn",
+      "price": 1700000,
+      "images": [
+        "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng bungalow riêng biệt với không gian sân vườn yên tĩnh, thích hợp nghỉ dưỡng.",
+      "amenities": [
+        "Sân vườn riêng",
+        "Wi-Fi miễn phí",
+        "Ghế thư giãn",
+        "Bữa sáng"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 48,
+      "location": {
+        "floor": 1,
+        "building": "D"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 45
+      }
+    },
+    {
+      "_id": "room_19",
+      "name": "Phòng Luxury King",
+      "price": 2500000,
+      "images": [
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng luxury với giường King cao cấp, nội thất sang trọng và không gian rộng rãi.",
+      "amenities": [
+        "Giường King",
+        "Wi-Fi tốc độ cao",
+        "Bồn tắm",
+        "Minibar",
+        "Dịch vụ phòng"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 67,
+      "location": {
+        "floor": 16,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 1,
+        "guests": 2,
+        "size_m2": 55
+      }
+    },
+    {
+      "_id": "room_20",
+      "name": "Phòng Tổng Thống",
+      "price": 6500000,
+      "images": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Phòng tổng thống cao cấp với phòng khách, phòng ngủ riêng, ban công và nội thất sang trọng.",
+      "amenities": [
+        "Phòng khách riêng",
+        "Phòng ngủ riêng",
+        "Ban công lớn",
+        "Jacuzzi",
+        "Quản gia riêng",
+        "Dịch vụ phòng 24/7"
+      ],
+      "rating": 5.0,
+      "reviewsCount": 18,
+      "location": {
+        "floor": 20,
+        "building": "A"
+      },
+      "specs": {
+        "beds": 2,
+        "guests": 4,
+        "size_m2": 180
+      }
+    }
+  ],
+  "users": [
+    {
+      "_id": "user_admin",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "_id": "user_user",
+      "name": "Người dùng",
+      "email": "user@gmail.com",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "booking_1",
+      "roomId": "room_1",
+      "userId": "user_user",
+      "checkIn": "2026-09-10",
+      "checkOut": "2026-09-14",
+      "totalPrice": 4800000,
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    }
+  ],
+  "coupons": [
+    {
+      "_id": "coupon_welcome10",
+      "code": "WELCOME10",
+      "discount": 10,
+      "discountType": "percent",
+      "active": true
+    }
+  ]
+}
