@@ -390,7 +390,6 @@ export default function Profile() {
 
           {/* Danger Zone */}
           <div className="bg-red-50 dark:bg-red-900/20 border-2 border-red-200 dark:border-red-900 rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-red-600 dark:text-red-400 mb-4">⚠️ Vùng Nguy Hiểm</h3>
             <button
               onClick={handleLogout}
               className="w-full px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg transition font-semibold"
