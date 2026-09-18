@@ -59,3 +59,13 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/frontend:latest
             ${{ secrets.DOCKER_USERNAME }}/frontend:${{ github.sha }}
+  deploy:
+    name: Deploy to Render
+    needs: docker
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Render deployment
+        run: |
+          curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"

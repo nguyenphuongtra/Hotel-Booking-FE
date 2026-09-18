@@ -47,14 +47,6 @@ export const AuthProvider = ({
   const [isLoading, setIsLoading] = useState(true)
 
   const queryClient = useQueryClient()
-
-  /**
-   * Lưu trạng thái đăng nhập
-   *
-   * Mock data sử dụng:
-   * - token
-   * - mock_current_user_v2
-   */
   const applyAuthState = useCallback(
     (newToken: string, newUser: User) => {
       localStorage.setItem('token', newToken)
@@ -68,10 +60,6 @@ export const AuthProvider = ({
     },
     []
   )
-
-  /**
-   * Khởi tạo auth từ localStorage
-   */
   useEffect(() => {
     const storedToken = localStorage.getItem('token')
     const storedUser = localStorage.getItem('mock_current_user_v2')
@@ -98,10 +86,6 @@ export const AuthProvider = ({
 
     setIsLoading(false)
   }, [])
-
-  /**
-   * LOGIN
-   */
   const login = useCallback(
     async (email: string, password: string) => {
       try {
@@ -109,19 +93,6 @@ export const AuthProvider = ({
           email,
           password,
         })
-
-        /**
-         * Mock API trả:
-         *
-         * {
-         *   data: {
-         *     data: {
-         *       token,
-         *       user
-         *     }
-         *   }
-         * }
-         */
         const {
           token: newToken,
           user: newUser,
@@ -152,9 +123,6 @@ export const AuthProvider = ({
     [applyAuthState]
   )
 
-  /**
-   * REGISTER
-   */
   const register = useCallback(
     async (
       name: string,
