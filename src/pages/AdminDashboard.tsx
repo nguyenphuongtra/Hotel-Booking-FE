@@ -123,7 +123,7 @@ export default function AdminDashboard({ viewMode }: AdminDashboardProps) {
   }
 
   return (
-    <div className="flex min-h-screen bg-gray-50">
+    <div className="flex min-h-screen bg-yellow-100">
       <AdminSidebar />
       <div className={`flex-1 ${viewMode === 'mobile' ? 'p-4' : 'p-8'} ${containerWidth} mx-auto overflow-y-auto`}>
         <div className="mb-8">

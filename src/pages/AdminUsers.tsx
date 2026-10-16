@@ -132,7 +132,7 @@ export function AdminUsers({ viewMode }: AdminUsersProps) {
   if (error) return <ErrorState message={error} />;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex">
+    <div className="min-h-screen bg-yellow-100 flex">
       {/* Sidebar - Ẩn trên mobile, hiện trên desktop */}
       {!isMobile && <AdminSidebar />}
 

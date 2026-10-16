@@ -252,7 +252,7 @@ export function AdminRooms({ viewMode }: AdminRoomsProps) {
   if (error) return <ErrorState message={error} />;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex">
+    <div className="min-h-screen bg-yellow-100 flex">
       {/* Sidebar */}
       {!isMobile && <AdminSidebar />}
 

@@ -209,7 +209,7 @@ export function AdminCoupons({ viewMode }: AdminCouponsProps) {
   if (error && coupons.length === 0) return <ErrorState message={error} />;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex">
+    <div className="min-h-screen bg-yellow-100 flex">
       {!isMobile && <AdminSidebar />}
 
       <div className={`${!isMobile ? 'ml-64' : ''} flex-1 p-4 md:p-8`}>
